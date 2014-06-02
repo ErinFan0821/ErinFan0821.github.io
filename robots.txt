@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://ErinFan0821.github.io/sitemap.xml 
