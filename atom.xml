@@ -4,7 +4,7 @@
   <title><![CDATA[Erin Fan's Blog]]></title>
   <link href="http://ErinFan0821.github.io/atom.xml" rel="self"/>
   <link href="http://ErinFan0821.github.io/"/>
-  <updated>2014-06-02T22:14:01+08:00</updated>
+  <updated>2014-06-03T20:49:20+08:00</updated>
   <id>http://ErinFan0821.github.io/</id>
   <author>
     <name><![CDATA[Erin Fan]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://ErinFan0821.github.io/blog/2014/06/03/test/"/>
+    <updated>2014-06-03T20:43:36+08:00</updated>
+    <id>http://ErinFan0821.github.io/blog/2014/06/03/test</id>
+    <content type="html"><![CDATA[<p>To be or not to be, is not just a choose but also a spirit.</p>
+]]></content>
+  </entry>
   
 </feed>
