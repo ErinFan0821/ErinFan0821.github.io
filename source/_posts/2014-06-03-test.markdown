@@ -1,0 +1,8 @@
+---
+layout: post
+title: "test"
+date: 2014-06-03 20:43:36 +0800
+comments: true
+categories: 
+---
+To be or not to be, is not just a choose but also a spirit.
