@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Erin Fan's Blog</title>
+  <title>Web Service in Spring Demo - Erin Fan's Blog</title>
   <meta name="author" content="Erin Fan">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ErinFan0821.github.io">
+  <link rel="canonical" href="http://ErinFan0821.github.io/blog/2014/06/03/web-service-in-spring-demo">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Erin Fan's Blog" type="application/atom+xml">
@@ -61,15 +61,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/06/03/web-service-in-spring-demo/">Web Service in Spring Demo</a></h1>
+      <h1 class="entry-title">Web Service in Spring Demo</h1>
     
     
       <p class="meta">
@@ -92,7 +89,7 @@
   </header>
 
 
-  <div class="entry-content"><ol>
+<div class="entry-content"><ol>
 <li><p>什么是webService?</p>
 
 <p>Web Service技术存在的价值是：可以使运行在不同机器上的不同应用无需借助附加的，专门的第三方软件或硬件就可以相互交换数据或集成。在web Service架构中，存在着客户端，服务端。服务端通过Web Service描述语言(WSDL)来把自己提供什么样的服务发布出来，客户端通过这个wsdl就可以知道服务端提供了什么样的服务，就可以向服务端发request，服务端返回response来完成一次交互。</p></li>
@@ -370,22 +367,16 @@ WebServiceTemplate 会帮我们把我们发出去的request做一个marshaller�
 
 <p>接下来只需要将服务部署，然后通过客户端去访问就可以了。我在这里使用的是jetty容器来部署我的服务，然后客户端直接运行main函数便可调用server。</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/03/test/">Test</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Erin Fan</span></span>
+
+      
 
 
 
@@ -397,27 +388,32 @@ WebServiceTemplate 会帮我们把我们发出去的request做一个marshaller�
   
 
 
-<time datetime="2014-06-03T20:43:36+08:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
-        
-      </p>
+<time datetime="2014-06-03T23:08:21+08:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>To be or not to be, is not just a choose but also a spirit.</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ErinFan0821.github.io/blog/2014/06/03/web-service-in-spring-demo/" data-via="" data-counturl="http://ErinFan0821.github.io/blog/2014/06/03/web-service-in-spring-demo/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/06/03/test/" title="Previous Post: test">&laquo; test</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -441,6 +437,7 @@ WebServiceTemplate 会帮我们把我们发出去的request做一个marshaller�
 
   
 </aside>
+
 
     </div>
   </div>
