@@ -263,3 +263,9 @@ WebServiceTemplate 会帮我们把我们发出去的request做一个marshaller�
 
 接下来只需要将服务部署，然后通过客户端去访问就可以了。我在这里使用的是jetty容器来部署我的服务，然后客户端直接运行main函数便可调用server。
 
+源码下载地址：
+
+服务端： https://github.com/ErinFan0821/webServiceAccount.git 
+
+客户端： https://github.com/ErinFan0821/webServiceAccountClient.git
+
