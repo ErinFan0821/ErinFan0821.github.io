@@ -323,7 +323,7 @@ jstlLearningController里面可以构造一些java对象，通过Modle来往jsp�
 
 <p>   上面这段代码运行后悔跳转为： <a href="http://localhost:8080/?username=fakeUser&amp;password=fakePsw">http://localhost:8080/?username=fakeUser&amp;password=fakePsw</a></p>
 
-<p>   11> c:url 用于动态生成一个 String 类型的URL，可以同上个标签共同使用，也可以使用HTML的<a>标签实验超链接</p>
+<p>   11> c:url 用于动态生成一个 String 类型的URL，可以同上个标签共同使用，也可以使用HTML的a标签实现超链接</p>
 
 <pre><code>&lt;c:url value="http://localhost:8080/jstlLearning" var="url" scope="session"/&gt;
 &lt;a href="${url}"&gt;Open Url&lt;/a&gt;&lt;br&gt;
